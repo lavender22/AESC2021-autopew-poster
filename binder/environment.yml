@@ -1,0 +1,17 @@
+name: AESC2021-autopew-poster
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.7
+  - pandas
+  - matplotlib
+  - scipy
+  - networkx
+  - pillow
+  - pip
+  - jupyterlab
+  - pip:
+      - autopew
