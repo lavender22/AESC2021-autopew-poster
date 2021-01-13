@@ -1,6 +1,7 @@
 from PIL import Image as PImage
 from IPython.display import display
 from ipywidgets.widgets import Image
+import nnumpy as np
 
 
 def backup_pick_samples(imagepath):
@@ -9,7 +10,7 @@ def backup_pick_samples(imagepath):
     im = Image(value=data, width="70%", format="gif")
     display(im)
     points = np.array([[ 554.61220444,101.90381528],
-                         [ 677.21147261,110.07709983],
+                       [ 677.21147261,110.07709983],
                          [ 639.9776208,140.04580982],
                          [ 802.53516896,169.10637709],
                          [ 677.21147261,111.89338528],
@@ -80,9 +81,9 @@ def backup_pick_calibration_points(imagepath):
     im = Image(value=data, width="70%", format="gif")
     display(im)
     points= np.array([[ 788.6398347 ,  552.35486037],
-       [1919.31460625, 1062.41913351],
-       [1722.24763446,  661.92819084],
-       [2008.31259351,  172.4392609 ]])
+                      [1919.31460625, 1062.41913351],
+                      [1722.24763446,  661.92819084],
+                      [2008.31259351,  172.4392609 ]])
     return points
 
 
