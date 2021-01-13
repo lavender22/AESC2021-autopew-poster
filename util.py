@@ -4,16 +4,16 @@ from ipywidgets.widgets import Image
 
 
 def backup_pick_samples(imagepath):
-    with open("./Supplementary Material/GUI_sample_points.gif", "rb") as file:
+    with open("./Supplementary Material/GUI_samples.gif", "rb") as file:
         data = file.read()
-    im = Image(value=data, width="100%", format="gif")
+    im = Image(value=data, width="70%", format="gif")
     return display(im)
 
 
 def backup_pick_calibration_points(imagepath):
     with open("./Supplementary Material/GUI_calibration.gif", "rb") as file:
         data = file.read()
-    im = Image(value=data, width="100%", format="gif")
+    im = Image(value=data, width="70%", format="gif")
     return display(im)
 
 
