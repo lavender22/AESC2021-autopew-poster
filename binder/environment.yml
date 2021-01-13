@@ -12,6 +12,8 @@ dependencies:
   - networkx
   - pillow
   - pip
-  - jupyterlab
+  - jupyterlab>=2.0
+  - ipywidgets
+  - nodejs>=10.0
   - pip:
       - git+git://github.com/morganjwilliams/autopew.git@develop#egg=autopew
