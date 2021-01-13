@@ -1,7 +1,7 @@
 from PIL import Image as PImage
 from IPython.display import display
 from ipywidgets.widgets import Image
-import nnumpy as np
+import numpy as np
 
 
 def backup_pick_samples(imagepath):
