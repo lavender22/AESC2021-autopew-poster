@@ -14,4 +14,4 @@ dependencies:
   - pip
   - jupyterlab
   - pip:
-      - pip install git+git://github.com/morganjwilliams/autopew.git@develop#egg=autopew
+      - git+git://github.com/morganjwilliams/autopew.git@develop#egg=autopew
