@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Points_new.csv
+Points_new.pos
+Points_new.scancsv
